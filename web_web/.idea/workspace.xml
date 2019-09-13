@@ -36,27 +36,33 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1QUM3U0MfjPnMuOvTC5myk16pnX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zb.login.servlet" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\java-web\web_web\web\lib" />
+      <recent name="D:\JAVA\java代码\web_web\web\scripts" />
+      <recent name="D:\JAVA\java代码\web_web\web\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zb.login.servlet" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVA\java代码\web_web\web\scripts" />
-      <recent name="D:\JAVA\java代码\web_web\web\lib" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zb.login.servlet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,11 +171,26 @@
       <workItem from="1567919507527" duration="18438000" />
       <workItem from="1568026378923" duration="7677000" />
       <workItem from="1568110725871" duration="7119000" />
+      <workItem from="1568192369092" duration="1223000" />
+      <workItem from="1568295145362" duration="18387000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/web_web$tomcat01.ic" NAME="tomcat01 Coverage Results" MODIFIED="1567933494907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -7,6 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>Title</title>
@@ -27,24 +28,26 @@
             <th>Operation</th>
         </tr>
 
-        <%
-            //获取所有的员工数据
-            List<User> users =(List<User> )request.getAttribute("users");
+        <%--
+            <%
+                //获取所有的员工数据
+                List<User> users =(List<User> )request.getAttribute("users");
 
-            for(User user :users ){
-        %>
-        <tr align="center">
-            <td><%=user.getId() %></td>
-            <td><%=user.getUsername() %></td>
-            <td><%=user.getPassword() %></td>
-            <td>
-                <a href="#">Edit</a>
-                <a href="#">Delete</a>
-            </td>
-        </tr>
-        <%
-            }
-        %>
+                for(User user :users ){
+            %>
+            <tr align="center">
+                <td><%=user.getId() %></td>
+                <td><%=user.getUsername() %></td>
+                <td><%=user.getPassword() %></td>
+                <td>
+                    <a href="#">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+            <%
+                }
+            %>
+        --%>
     </table>
 </body>
 </html>

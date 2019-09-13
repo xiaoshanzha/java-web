@@ -16,8 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -30,19 +31,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVA\java代码\twoweb\web\WEB-INF\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JAVA\java代码\twoweb\src\com\bean" />
       <recent name="D:\JAVA\java代码\twoweb\classes\com\bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\GitHub\java-web\Register_Login\web\WEB-INF\lib" />
+      <recent name="D:\JAVA\java代码\twoweb\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,6 +239,7 @@
       <workItem from="1567827594479" duration="1657000" />
       <workItem from="1567919469600" duration="35000" />
       <workItem from="1567922831922" duration="2828000" />
+      <workItem from="1568359964460" duration="14750000" />
     </task>
     <servers />
   </component>
