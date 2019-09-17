@@ -43,5 +43,12 @@
         <input type="submit" value="Login">
         <br/>
     </form>
+
+    <form action="ImageUploadServlet" method="post" enctype="multipart/form-data">
+        <input type="file" name = "img_0">
+        <br/>
+        <input type="submit" value="显示图片链接">
+        <br/>
+    </form>
 </body>
 </html>
