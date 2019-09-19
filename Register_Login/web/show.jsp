@@ -40,15 +40,17 @@
         <br/>
         <input type="file" name = "img_8">
         <br/>
-        <input type="submit" value="Login">
+        <input type="submit" value="发布">
         <br/>
     </form>
 
     <form action="ImageUploadServlet" method="post" enctype="multipart/form-data">
         <input type="file" name = "img_0">
         <br/>
-        <input type="submit" value="显示图片链接">
+        <input type="submit" value="显示该图片链接">
         <br/>
     </form>
+
+    <a href="AllShowServlet">查看所有发布信息</a>>
 </body>
 </html>
