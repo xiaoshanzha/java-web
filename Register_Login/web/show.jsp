@@ -52,5 +52,6 @@
     </form>
 
     <a href="AllShowServlet">查看所有发布信息</a>>
+    <a href="GetAllServlet">查看所有</a>>
 </body>
 </html>
