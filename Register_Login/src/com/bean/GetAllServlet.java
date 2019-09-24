@@ -49,6 +49,10 @@ public class GetAllServlet extends HttpServlet {
                     if(temp.equals("")){
                         dyn.setImg_num(i);
                         break;
+                    }else if(i==8&&!temp.equals("")){
+                        dyn.setImg_num(9);
+                        dyn.url.add(temp);
+                        break;
                     }else {
                         dyn.url.add(temp);
                     }

@@ -14,8 +14,8 @@ public class UserDaoImp implements UserDao{
             String sql = "insert into shows (user,time,text,type,img_0,img_1,img_2,img_3,img_4,img_5,img_6,img_7,img_8) values(?,?,?,?,?,?,?,?,?,?,?,?,?)";
             PreparedStatement ps = conn.prepareStatement(sql);
             ps.setString(1,text[0]);
-            ps.setString(2,text[1]);
-            ps.setString(3,text[2]);
+            ps.setString(2,text[2]);
+            ps.setString(3,text[1]);
             ps.setString(4,text[3]);
             ps.setString(5,img_url[0]);
             ps.setString(6,img_url[1]);

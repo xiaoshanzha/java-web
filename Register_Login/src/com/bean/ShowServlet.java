@@ -37,7 +37,7 @@ public class ShowServlet extends HttpServlet {
         int j = 0;
         //保存路径
         String savePath = getServletContext().getRealPath("\\imgs\\");
-        String finalPath = "http:\\101.37.79.26:8080\\show\\imgs\\";
+        String finalPath = "http://101.37.79.26:8080/show/imgs/";
      //   String savePath = "F:\\Tomcat\\webapps\\twoweb\\img\\";
 
         // 创建文件上传核心类

@@ -46,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/001_WEB/Web_Session" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -173,6 +173,7 @@
       <workItem from="1568110725871" duration="7119000" />
       <workItem from="1568192369092" duration="1223000" />
       <workItem from="1568295145362" duration="18387000" />
+      <workItem from="1569328459131" duration="1805000" />
     </task>
     <servers />
   </component>

@@ -30,7 +30,8 @@ public class ImageUploadServlet extends HttpServlet {
         PrintWriter out=response.getWriter();
         //保存路径
         String savePath = getServletContext().getRealPath("\\imgs\\");
-        String finalPath = "http:\\101.37.79.26:8080\\show\\imgs\\";
+
+        String finalPath = "http://101.37.79.26:8080/show/imgs/";
         // 创建文件上传核心类
         DiskFileItemFactory factory = new DiskFileItemFactory();
         ServletFileUpload sfu = new ServletFileUpload(factory);

@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="182" />
+    <option name="myElementSize" value="329" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/bean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web_web" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -252,7 +252,8 @@
       <workItem from="1568893420650" duration="1743000" />
       <workItem from="1568987151787" duration="1868000" />
       <workItem from="1569065930678" duration="5105000" />
-      <workItem from="1569153405807" duration="848000" />
+      <workItem from="1569153405807" duration="7304000" />
+      <workItem from="1569325091140" duration="3440000" />
     </task>
     <servers />
   </component>
@@ -273,6 +274,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Register_Login$t_1.ic" NAME="t_1 Coverage Results" MODIFIED="1569154418062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Register_Login$t_1.ic" NAME="t_1 Coverage Results" MODIFIED="1569327203309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
