@@ -8,6 +8,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
     <title>Title</title>
@@ -28,6 +29,25 @@
             <th>Operation</th>
         </tr>
 
+        <!-- 通过循环 显示 员工数据 -->
+        <!--
+            c:forEach  循环 迭代
+                items: 指定要迭代的集合
+                var: 代表当前迭代出的元素
+         -->
+        <c:forEach items="${users}" var="user">
+            <tr align="center">
+                <td>${user.id}</td>
+                <td>${user.username}</td>
+                <fmt:td>${user.password}</fmt:td bundle>
+                <td></td>
+                <td></td>
+                <td>
+                    <a href="#">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+        </c:forEach>
         <%--
             <%
                 //获取所有的员工数据
