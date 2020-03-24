@@ -39,6 +39,7 @@ public class ImageUploadServlet extends HttpServlet {
         sfu.setHeaderEncoding("UTF-8");
 
         try {
+            out.println("");
             List<FileItem> itemList = sfu.parseRequest(request);
             for(FileItem fileItem : itemList){
                 String fieldName = fileItem.getFieldName();

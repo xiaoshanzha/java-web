@@ -17,7 +17,7 @@ public class GetNewsOneServlet extends HttpServlet {
         response.setContentType("Text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         // 实例化List对象
-        List<NewsOne> list = new ArrayList<NewsOne>();
+        List<News> list = new ArrayList<News>();
         try {
             // 加载数据库驱动，注册到驱动管理器
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -38,14 +38,14 @@ public class GetNewsOneServlet extends HttpServlet {
 
             // 判断光标向后移动，并判断是否有效
             while(rs.next()){
-                NewsOne newsOne = new NewsOne();
-                newsOne.setTopic(rs.getString("topic"));
-                newsOne.setAuthor(rs.getString("author"));
-                newsOne.setTime(rs.getString("time"));
-                newsOne.setImg_url(rs.getString("img_url"));
-                newsOne.setMain_url(rs.getString("main_url"));
-                newsOne.setContent(rs.getString("content"));
-                list.add(newsOne);
+                News news = new News();
+                news.setTopic(rs.getString("topic"));
+                news.setAuthor(rs.getString("author"));
+                news.setTime(rs.getString("time"));
+                news.setImg_url(rs.getString("img_url"));
+                news.setMain_url(rs.getString("main_url"));
+                news.setContent(rs.getString("content"));
+                list.add(news);
             }
 
         } catch (ClassNotFoundException e) {

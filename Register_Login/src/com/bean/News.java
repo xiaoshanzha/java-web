@@ -1,6 +1,6 @@
 package com.bean;
 
-public class NewsOne {
+public class News {
     public String topic;
     public String author;
     public String time;
