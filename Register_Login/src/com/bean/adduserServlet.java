@@ -17,7 +17,7 @@ public class adduserServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         try {
-            String id = request.getParameter("id");
+            String id = new String(request.getParameter("id").getBytes("ISO-8859-1"),"UTF-8");
             String pw = request.getParameter("password");
             // 加载数据库驱动，注册到驱动管理器
             Class.forName("com.mysql.cj.jdbc.Driver");
